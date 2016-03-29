@@ -44,3 +44,7 @@
 .dd#pages_list{data: {:"sort-url" => spina.sort_admin_pages_url }}
   %ol.dd-list
     = render partial: 'page', collection: @pages.roots
+    
+= javascript_include_tag "redactor.min"
+= stylesheet_link_tag "redactor"
+= javascript_include_tag "uploadcare.js"
