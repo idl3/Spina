@@ -6,7 +6,6 @@
 //= require ./account
 //= require ./confirm_delete
 //= require ./pages
-//= require ./trix
 //= require ./spina.trix
 //= require ./spina.infinite_scroll
 //= require ./spina.scaffold
